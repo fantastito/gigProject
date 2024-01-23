@@ -1,0 +1,21 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    width: 15rem;
+}
+
+.band {
+    color: green;
+    background-color: bisque;
+}
+
+.image {
+    width: 200px;
+    border-radius: 25%;
+}
+
