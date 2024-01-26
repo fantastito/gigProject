@@ -1,7 +1,10 @@
 import "./App.css";
 import Gig from "./components/Gig"
+import ClickListener from "./components/clickListener";
 
 import abbaImage from "./assets/abba.jpeg";
+import EventLogger from "./components/eventLogger";
+import Die from "./components/die";
 
 const gig1 = {
     band: 'ABBA',
@@ -29,7 +32,14 @@ const gig3 = {
 
 function App() {
   return (
+    <body>
     <div>
+    <ClickListener /><br/><br/>
+    <EventLogger /><br/><br/>
+    <Die />
+    <header>
+        <h1>GIG LISTINGS</h1>
+    </header>
       <Gig band = {gig1.band}
       image = {gig1.image}
       description = {gig1.description}
@@ -49,6 +59,7 @@ function App() {
       location = {gig3.location}
       />
     </div>
+    </body>
   );
 }
 

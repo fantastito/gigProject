@@ -1,8 +1,18 @@
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
+    max-width: 1400px;
+    margin: 3 auto;
+    padding: 5rem;
     text-align: center;
+    background: #246EB9;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #9a3c4d, #f015af);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .logo {
@@ -10,8 +20,8 @@
 }
 
 .band {
-    color: green;
-    background-color: bisque;
+    color: #F5EE9E;
+    background-color: #F06543;
 }
 
 .image {
@@ -19,3 +29,10 @@
     border-radius: 25%;
 }
 
+.gig {
+    width: 400px;
+    border: 15px solid #FDFFFC;
+    padding: 10px;
+    margin: 20px;
+    background: #4CB944;
+}
